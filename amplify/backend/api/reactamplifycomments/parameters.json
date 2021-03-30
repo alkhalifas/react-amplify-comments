@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "reactamplifycomments",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authreactamplifycomments9a4d7518",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
